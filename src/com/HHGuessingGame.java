@@ -80,7 +80,7 @@ public class HHGuessingGame {
                     input.nextLine();
                 } // end of catch
             } // end of while
-            //userGuess = input.nextInt();
+
             numGuessSingleGame++;
             if (userGuess < randomNumber)
             {
