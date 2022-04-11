@@ -1,3 +1,14 @@
+// Programmer: Hannah Hendrickson
+// Date: 4/11/2022
+// Class: CS145 Hybrid01
+// Assignment: Lab #1 Guessing Game
+// Purpose: Edit and fix Guessing Game lab from CS141
+
+// Notes: The main change I made with this program was specifying
+// that InputMismatchException could be thrown within gamePlay().
+// With that, I added a try/catch block to ensure user guesses were
+// integers. I believe the program cannot be crashed by the user now.
+
 package com;
 
 import java.util.*;
