@@ -54,7 +54,22 @@ public class HHGuessingGame {
         // evaluates user guesses against random number and gives hints
         while(userGuess != randomNumber)
         {
-            userGuess = input.nextInt();
+            boolean tryFlag = false;
+            while(!tryFlag)
+            {
+                // Ensures input is an integer
+                try
+                {
+                    userGuess = input.nextInt();
+                    tryFlag = true;
+                } // end of try
+                catch (InputMismatchException e)
+                {
+                    System.out.printf("Please enter a number as your guess.%n%n");
+                    input.nextLine();
+                } // end of catch
+            } // end of while
+            //userGuess = input.nextInt();
             numGuessSingleGame++;
             if (userGuess < randomNumber)
             {
