@@ -9,6 +9,9 @@
 // With that, I added a try/catch block to ensure user guesses were
 // integers. I believe the program cannot be crashed by the user now.
 
+// I edited this program in IntelliJ
+// and I performed commits and pushes with git/github.
+
 package com;
 
 import java.util.*;
