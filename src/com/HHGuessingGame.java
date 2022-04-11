@@ -11,7 +11,7 @@ public class HHGuessingGame {
         int totalGuess = 0;
         int numGamesPlayed = 0;
         int bestGuess = 99999;
-        boolean wantToPlay;
+
         Scanner input = new Scanner(System.in);
 
         instruction(MAX_RANDOM_NUMBER);
