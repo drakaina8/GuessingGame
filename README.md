@@ -1,2 +1,4 @@
 # GuessingGame
-Lab1 for CS 145
+
+This program was written by Hannah Hendrickson
+It was originally created in CS&141 and later refined in CS145.
